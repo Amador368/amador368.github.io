@@ -1,3 +1,56 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
 body {
-    background-color: cadetblue;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+}
+.card-title {
+    font-family: "Montserrat-Bold";
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: .8em;
+}
+.card-description-text {
+    font-size: 1em;
+}
+.container {
+    align-items: center;
+    max-width: 540px;
+    display: flex;
+    margin-right: auto;
+    height: 100vh;
+    margin-left: auto;
+}
+.name {
+    color: #4bffa5;
+}
+.card {
+    padding: 1em;
+}
+.card-title, .link {
+    color: white
+}
+.card-description, .card-actions {
+    color: #888;
+    line-height: 1.5em;
+}
+.link {
+    font-style: italic;
+    text-decoration: none;    
+}
+footer {
+    font-size: .8em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1.1em;
 }
