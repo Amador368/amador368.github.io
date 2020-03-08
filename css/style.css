@@ -11,6 +11,7 @@ body {
     color: white;
     font-family: "Montserrat-Regular";
     font-size: 16px;
+    margin: 0;
 }
 .card-title {
     font-family: "Montserrat-Bold";
@@ -52,5 +53,5 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-right: 1.1em;
+    padding: 1.1em;
 }
